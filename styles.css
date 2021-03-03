@@ -3,11 +3,13 @@
     --background1: #F1F1F1;
     --background2: #FFFFFF;
     --text: #1D1D1D;
+    --text2: #868686;
     --accent: #0017c7;
     --accent2: #EC1B50;
     --accent3: #FBAE17;
-    --accent4: #49c7EF;
-    --accent5: #70BE44;
+    --accent4: #FFD70D;
+    --accent5: #49c7EF;
+    --accent6: #70BE44;
     --hover: #B9BEE8;
     --hover2: #BFBFBF;
     --font: 'Lato', sans-serif;
@@ -331,11 +333,43 @@ i:active:focus {
     height: 5.5rem;
 }
 
+.circle {
+    margin: 1rem;
+}
+
 .hero {
     background-color: var(--accent);
-    height: 6rem;
+    height: 12rem;
 }
 
 .white {
     color: white;
+}
+
+.card {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.card .small-p {
+    color: var(--text2);
+    padding: 0;
+}
+
+.card a {
+    padding: 0;
+    margin: 0;
+}
+
+.card p {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    background-color: var(--background1);
+    border-radius: 5px;
+}
+
+img {
+    margin: 1rem;
 }
