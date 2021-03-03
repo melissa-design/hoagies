@@ -240,6 +240,10 @@ i:active:focus {
     max-width: 1024px;
 }
 
+.x-small-width {
+    max-width: 600px;
+}
+
 .centered-padded {
     margin: 0 auto;
     padding-left: 1rem;
@@ -370,6 +374,6 @@ i:active:focus {
     border-radius: 5px;
 }
 
-img {
+.imagery img {
     margin: 1rem;
 }
