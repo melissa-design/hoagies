@@ -60,6 +60,9 @@ html {
     }
 }
 
+
+/* Typography */
+
 h1,
 h2,
 h3,
@@ -254,6 +257,9 @@ i:active:focus {
     text-align: center;
 }
 
+
+/* circles */
+
 #circle1 {
     background: var(--background1);
     border-radius: 50%;
@@ -341,6 +347,9 @@ i:active:focus {
     margin: 1rem;
 }
 
+
+/* Hero styles */
+
 .hero {
     background-color: var(--accent);
     height: 12rem;
@@ -349,6 +358,9 @@ i:active:focus {
 .white {
     color: white;
 }
+
+
+/* Cards */
 
 .card {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.16);
@@ -369,11 +381,41 @@ i:active:focus {
     margin: 0;
 }
 
+
+/* grey box */
+
 .box {
     background-color: var(--background1);
     border-radius: 5px;
 }
 
+
+/* imagery images */
+
 .imagery img {
     margin: 1rem;
+}
+
+
+/* transparent blue banner */
+
+.blue {
+    background-color: rgba(0, 23, 199, 0.7);
+    height: 12rem;
+}
+
+
+/* Search */
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.form-control::placeholder {
+    font-style: italic;
+}
+
+.search .btn-primary {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }
