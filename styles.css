@@ -366,6 +366,10 @@ i:active:focus {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.16);
 }
 
+.card:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.16), 0 6px 30px rgba(0, 0, 0, 0.16);
+}
+
 .card .small-p {
     color: var(--text2);
     padding: 0;
@@ -418,4 +422,16 @@ input:focus::placeholder {
 .search .btn-primary {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
+}
+
+.search:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.16), 0 6px 30px rgba(0, 0, 0, 0.16);
+}
+
+
+/* lists */
+
+ul {
+    padding: 0;
+    list-style-type: none;
 }
