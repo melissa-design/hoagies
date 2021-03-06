@@ -190,6 +190,10 @@ a:hover {
 
 /* Spacers */
 
+.spacer0 {
+    height: 1rem;
+}
+
 .spacer {
     height: 2rem;
 }
@@ -263,6 +267,15 @@ i:active:focus {
 
 
 /* circles */
+
+.color {
+    border-radius: 5px;
+    height: 6rem;
+}
+
+.color1 {
+    background-color: var(--background1);
+}
 
 #circle1 {
     background: var(--background1);
