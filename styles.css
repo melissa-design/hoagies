@@ -266,102 +266,61 @@ i:active:focus {
 }
 
 
-/* circles */
+/* colors */
 
 .color {
     border-radius: 5px;
-    height: 6rem;
+    height: 5rem;
+    padding: 1rem;
 }
 
 .color1 {
     background-color: var(--background1);
 }
 
-#circle1 {
-    background: var(--background1);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color2 {
+    background-color: var(--background2);
+    border: solid var(--text) 0.1rem;
 }
 
-#circle2 {
-    background: var(--background2);
-    border-radius: 50%;
-    border: solid 1px black;
-    width: 5.5rem;
-    height: 5.5rem;
+.color3 {
+    background-color: var(--text);
 }
 
-#circle3 {
-    background: var(--text);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color4 {
+    background-color: var(--text2);
 }
 
-#circle3 p,
-#circle4 p,
-#circle5 p,
-#circle6 p,
-#circle8 p,
-#circle9 p {
-    color: white;
-    padding-top: 2rem;
-    text-align: center;
+.color5 {
+    background-color: var(--accent);
 }
 
-#circle1 p,
-#circle2 p,
-#circle7 p {
-    color: var(--text);
-    padding-top: 2rem;
-    text-align: center;
+.color6 {
+    background-color: var(--hover);
 }
 
-#circle4 {
-    background: var(--accent);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color7 {
+    background-color: var(--accent2);
 }
 
-#circle5 {
-    background: var(--accent2);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color8 {
+    background-color: var(--accent3);
 }
 
-#circle6 {
-    background: var(--accent3);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color9 {
+    background-color: var(--accent4);
 }
 
-#circle7 {
-    background: var(--accent4);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color10 {
+    background-color: var(--accent5);
 }
 
-#circle8 {
-    background: var(--accent5);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
+.color11 {
+    background-color: var(--accent6);
 }
 
-#circle9 {
-    background: var(--accent6);
-    border-radius: 50%;
-    width: 5.5rem;
-    height: 5.5rem;
-}
-
-.circle {
-    margin-right: 0.5rem;
+.color12 {
+    background-color: var(--hover2);
 }
 
 
