@@ -391,6 +391,19 @@ i:active:focus {
 
 /* Cards */
 
+@media screen and (max-width: 575px) {
+    .popular-links .card-img-top {
+        object-fit: cover;
+        height: 10rem;
+    }
+}
+
+.listed-items .card-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+}
+
 .card {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.16);
 }
@@ -426,6 +439,8 @@ i:active:focus {
 @media screen and (min-width: 569px) {
     .imagery img {
         width: 386px;
+        object-position: center;
+        object-fit: cover;
     }
 }
 
