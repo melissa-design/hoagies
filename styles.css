@@ -15,6 +15,10 @@
     --font: 'Lato', sans-serif;
 }
 
+.white {
+    color: white;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -30,9 +34,10 @@ body {
     width: 100%;
 }
 
-.body-content {
+
+/* .body-content {
     padding: 20px;
-}
+} */
 
 html {
     font-size: 18px;
@@ -167,6 +172,51 @@ p {
 }
 
 
+/*Header banner*/
+
+.header-banner {
+    background-image: url(./images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    padding: 0px;
+    display: grid;
+    align-content: end;
+}
+
+.hero {
+    background-color: rgba(16, 23, 199, 0.7);
+    height: 12rem;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+    .header-banner {
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 864px) {
+    .header-banner {
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 865px) and (max-width: 1366px) {
+    .header-banner {
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 1361px) {
+    .header-banner {
+        height: 30rem;
+    }
+}
+
+
 /* Buttons */
 
 .btn-primary {
@@ -295,8 +345,8 @@ i:active:focus {
 
 .centered-padded {
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .centered {
@@ -304,12 +354,13 @@ i:active:focus {
 }
 
 
-/* colors */
+/* color swatches */
 
 .color {
     border-radius: 5px;
     height: 5rem;
     padding: 1rem;
+    margin-left: 0.66rem;
 }
 
 .color1 {
@@ -362,21 +413,6 @@ i:active:focus {
 }
 
 
-/* Hero styles */
-
-.hero {
-    background-color: rgba(16, 23, 199, 0.7);
-    height: 12rem;
-    display: grid;
-    align-content: center;
-    text-align: center;
-}
-
-.white {
-    color: white;
-}
-
-
 /* Cards */
 
 .card {
@@ -403,18 +439,10 @@ i:active:focus {
 }
 
 
-/* grey box */
-
-.box {
-    background-color: var(--background1);
-    border-radius: 5px;
-}
-
-
 /* imagery images */
 
 .imagery img {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 
@@ -454,49 +482,10 @@ ul {
 }
 
 
-/*EH EDITS*/
-
-.header-banner {
-    background-image: url(./images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30rem;
-    padding: 0px;
-    display: grid;
-    align-content: end;
-}
+/*Footer*/
 
 .footer {
     background-color: var(--accent);
     height: 50px;
     width: 100%;
-}
-
-.secondary-color-circles,
-.background-color-circles {
-    display: flex;
-}
-
-@media screen and (max-width: 360px) {
-    .header-banner {
-        height: 15rem;
-    }
-}
-
-@media screen and (min-width: 361px) and (max-width: 864px) {
-    .header-banner {
-        height: 20rem;
-    }
-}
-
-@media screen and (min-width: 865px) and (max-width: 1366px) {
-    .header-banner {
-        height: 25rem;
-    }
-}
-
-@media screen and (min-width: 1361px) {
-    .header-banner {
-        height: 30rem;
-    }
 }
