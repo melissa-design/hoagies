@@ -34,11 +34,6 @@ body {
     width: 100%;
 }
 
-
-/* .body-content {
-    padding: 20px;
-} */
-
 html {
     font-size: 18px;
     color: var(--text);
@@ -175,45 +170,26 @@ p {
 /*Header banner*/
 
 .header-banner {
-    background-image: url(./images/hero.png);
+    background-image: url(./images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 30rem;
-    padding: 0px;
     display: grid;
     align-content: end;
 }
 
-.hero {
+.blue-band {
     background-color: rgba(16, 23, 199, 0.7);
-    height: 12rem;
-    display: grid;
-    align-content: center;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
 }
 
-@media screen and (max-width: 360px) {
-    .header-banner {
-        height: 15rem;
-    }
-}
-
-@media screen and (min-width: 361px) and (max-width: 864px) {
-    .header-banner {
-        height: 20rem;
-    }
-}
-
-@media screen and (min-width: 865px) and (max-width: 1366px) {
-    .header-banner {
-        height: 25rem;
-    }
-}
-
-@media screen and (min-width: 1361px) {
-    .header-banner {
-        height: 30rem;
-    }
+.blue-band h1 {
+    margin: 0;
 }
 
 
@@ -415,6 +391,19 @@ i:active:focus {
 
 /* Cards */
 
+@media screen and (max-width: 575px) {
+    .popular-links .card-img-top {
+        object-fit: cover;
+        height: 10rem;
+    }
+}
+
+.listed-items .card-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+}
+
 .card {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.16);
 }
@@ -441,8 +430,18 @@ i:active:focus {
 
 /* imagery images */
 
-.imagery img {
-    margin: 1.5rem;
+@media screen and (max-width: 568px) {
+    .imagery img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 569px) {
+    .imagery img {
+        width: 386px;
+        object-position: center;
+        object-fit: cover;
+    }
 }
 
 
